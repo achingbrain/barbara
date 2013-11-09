@@ -1,0 +1,10 @@
+{
+	"name": "barbara",
+	"version": "1.0.0",
+	"description": "Brewing And Related Brew products Are Robotically Arranged",
+	"main": "barbara.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/achingbrain/barbara.git"
+	}
+}
