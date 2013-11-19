@@ -1,0 +1,13 @@
+[{
+	"name": "barbara-pm2-publisher",
+	"script" : "../barbara-pm2-publisher/pm2-publisher.js"
+}, {
+	"name": "barbara-registry",
+	"script": "../barbara-registry/registry.js"
+}, {
+	"name": "barbara-statto",
+	"script": "../barbara-statto/statto.js"
+}, {
+	"name": "barbara-twitter",
+	"script": "../barbara-twitter/twitter.js"
+}]

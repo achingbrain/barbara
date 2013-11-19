@@ -1,0 +1,10 @@
+[{
+	"name": "barbara-pm2-publisher",
+	"script" : "../barbara-pm2-publisher/pm2-publisher.js"
+}, {
+	"name": "barbara-temperature",
+	"script": "../barbara-temperature/temperature.js"
+}, {
+	"name": "barbara-heater",
+	"script": "../barbara-heater/heater.js"
+}]
