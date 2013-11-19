@@ -38,5 +38,5 @@ do
 done
 
 echo "Starting pm2"
-
+cd $BARBARA_HOME
 pm2 start $BARBARA_HOME/barbara/config/`hostname`.json
