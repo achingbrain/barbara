@@ -2,6 +2,8 @@
 
 Build A Robot Brew A Real Ale
 
+![Barbara](https://raw.github.com/achingbrain/barbara/master/assets/barbara.jpg)
+
 ## Setup
 
 A Rasberry Pi, a BeagleBone Black and some Arduinos.
@@ -21,6 +23,10 @@ The effect is sort of like a beer ban-marie.
 The aquarium heater is turned on and off via a [relay](http://proto-pic.co.uk/beefcake-relay-control-kit/) in the plug box controlled by one of the Arduinos.
 
 ![Relay inside the plug box](https://raw.github.com/achingbrain/barbara/master/assets/relay.jpg)
+
+The finished article:
+
+![Beer](https://raw.github.com/achingbrain/barbara/master/assets/beer.jpg)
 
 ## Dependencies
 
