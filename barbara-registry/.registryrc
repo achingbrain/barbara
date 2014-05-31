@@ -1,0 +1,10 @@
+[seaport]
+  port = 47829
+
+[rest]
+  name = barbara-registry-rest
+  version = 1.0.0
+
+[ws]
+  name = barbara-registry-ws
+  version = 1.0.0

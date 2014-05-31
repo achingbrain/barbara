@@ -1,0 +1,25 @@
+{
+  "name": "barbara-monitor",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node monitor.js",
+    "browserify": "browserify public/js/main.js -o public/js/monitor.js"
+  },
+  "dependencies": {
+    "express": "^4.0",
+    "jade": "^1.0",
+    "rc": "^0.4",
+    "underscore.string": "~2.3",
+    "nconf": "~0.6",
+    "wantsit": "^1.0",
+    "mdns2": "~2.1.0",
+    "seaport": "^2.0",
+    "bonvoyage": "~1.0",
+
+    "d3": "^3.0",
+    "jquery-browserify": "~1.8",
+
+    "grunt-contrib-watch": "^0.6"
+  }
+}

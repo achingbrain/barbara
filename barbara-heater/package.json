@@ -1,0 +1,30 @@
+{
+  "name": "barbara-heater",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Heats",
+  "main": "heater.js",
+  "scripts": {
+    "test": "istanbul cover nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/achingbrain/barbara-heater.git"
+  },
+  "dependencies": {
+    "serialport": "~1.2",
+    "winston": "~0.7",
+    "underscore.string": "~2.3",
+    "rc": "^0.4",
+    "wantsit": "~1.0",
+    "columbo": "~1.0",
+    "restify": "~2.6",
+    "hapi": "~1.14"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8",
+    "should": "~2.1",
+    "sinon": "~1.7",
+    "istanbul": "~0.1"
+  }
+}

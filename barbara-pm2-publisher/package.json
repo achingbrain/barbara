@@ -1,0 +1,26 @@
+{
+	"name": "barbara-pm2-publisher",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Publishes PM2 ports in seaport",
+	"main": "pm2-publisher.js",
+	"scripts": {
+		"test": "istanbul cover nodeunit test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/achingbrain/barbara-pm2-publisher.git"
+	},
+	"dependencies": {
+		"winston": "~0.7",
+		"bonvoyage": "~1.0.0",
+		"nconf": "~0.6",
+		"pm2-interface": "~0.0"
+	},
+	"devDependencies": {
+		"nodeunit": "~0.8",
+		"jsmockito": "~1.0",
+		"jshamcrest": "~0.7",
+		"istanbul": "~0.1"
+	}
+}

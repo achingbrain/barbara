@@ -1,0 +1,34 @@
+{
+	"registry": {
+		"name": "barbara",
+		"service": "barbara-registry-rest",
+		"version": "1.0.0"
+	},
+	"rest": {
+		"name": "barbara-heater-rest",
+		"version": "1.0.0",
+		"resources": "./resources"
+	},
+	"temperature": {
+		"name": "barbara-temperature-rest",
+		"version": "1.0.0"
+	},
+	"brew": {
+		"id": "58bd080d810ee941397ffb74a600007a"
+	},
+	"statto": {
+		"name": "barbara-statto-rest",
+		"version": "1.0.0"
+	},
+	"arduino": {
+		"port": "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A6027PCJ-if00-port0",
+		"pin": 2
+	},
+	"logging": {
+		"timestamp": true,
+		"colorize": false
+	},
+	"notificationInterval": 600000,
+	"minTemperature": 20,
+	"maxTemperature": 22
+}

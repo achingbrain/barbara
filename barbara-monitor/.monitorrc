@@ -1,0 +1,8 @@
+[seaport]
+  host = localhost
+  port = 47829
+  version = 1.0.0
+
+[www]
+  role = barbara-monitor-www
+  version = 1.0.0

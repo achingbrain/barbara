@@ -1,0 +1,30 @@
+{
+  "name": "registry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Service registry",
+  "main": "registry.js",
+  "scripts": {
+    "test": "istanbul cover _mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/achingbrain/barbara-registry.git"
+  },
+  "dependencies": {
+    "winston": "^0.7",
+    "rc": "^0.4",
+    "seaport": "^2.0",
+    "wantsit": "^1.0",
+    "ws": "^0.4",
+    "columbo": "^1.0",
+    "hapi": "^5.0",
+    "freeport": "^1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.0",
+    "chai": "^1.0",
+    "sinon": "^1.0",
+    "istanbul": "^0.2"
+  }
+}

@@ -1,0 +1,12 @@
+[seaport]
+  host = localhost
+  port = 47829
+  version = 1.0.0
+
+[rest]
+  name = barbara-database-rest
+  version = 1.0.0
+
+[couchdb]
+  host = localhost
+  port = 5984
